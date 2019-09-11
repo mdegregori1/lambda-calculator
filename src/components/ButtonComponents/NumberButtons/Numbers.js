@@ -12,14 +12,15 @@ import { numbers } from '../../../data'
 const Numbers = () => {
   // STEP 2 - add the imported data to state
   const [numberState] = useState(numbers);
-  
+  // console.log('NumberState', numberState);
   return (
-    <div className>
+    <div>
       {numberState.map((data, index) => (
-        <NumberButton key={index} numberData={data} />
+        <NumberButton key={index} numberData ={data} />
       ))}
        
     </div>
   );
 };
 export default Numbers; 
+//data is value of the element in the array 
