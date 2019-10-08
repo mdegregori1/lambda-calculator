@@ -5,6 +5,7 @@
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
+
 }
 .display {
     margin-top: 25px;
@@ -20,3 +21,67 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+
+
+.display-container {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.operation-container {
+  display: flex;
+}
+
+.left {
+  width: 70%;
+  margin: 6% 0 0 15%;
+}
+
+.right {
+  width: 30%;
+  margin: 6% 8% 0 0;
+}
+
+
+
+button {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+  font-size: 30px;
+}
+
+button:nth-child(10) {
+  width: 150px;
+  border-radius: 45%;
+}
+
+.number-buttons {
+    color: white;
+    background-color: #27408B;	
+    margin-right: 20px;
+}
+
+.special-button {
+    color: white;
+    background-color:#3A66A7;
+    margin-right: 20px;
+}
+
+.operator-buttons {
+    color: white;
+    background-color: #74BBFB;
+    margin-right: 20px;
+}
+
+button:nth-child(11) {
+    margin-left: 20px;
+  }
+  
+
+img.logo{
+    margin: 30px 0 0 30px;
+}
